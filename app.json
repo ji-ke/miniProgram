@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/bufan/bufan",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/bufan/bufan"
   ],
   "window": {
     "backgroundTextStyle": "light",
