@@ -1,0 +1,39 @@
+<!--pages/bufan/bufan.wxml-->
+<view class="topbar">
+	<view class="topbar-left">
+		<image class="logo-img" src="/assets/images/bufan/logo.png" mode="heightFix"></image>
+	</view>
+	<view class="topbar-center">郑州高端互联网技术培训</view>
+	<view class="topbar-right">
+		<view class="line"></view>
+		<view class="line"></view>
+		<view class="line"></view>
+	</view>
+</view>
+<view>
+	<image src="/assets/images/bufan/bf_s.jpg" mode="widthFix"></image>
+</view>
+<view class="about">
+	<view class="about-title">
+		<view class="about-us">关于我们</view>
+		<view class="about-line"></view>
+		<view class="about-course" >course</view>
+	</view>
+	<image src="/assets/images/bufan/about_us.jpg" mode="widthFix"></image>
+	<view class="content">{{content}}</view>
+	<view>
+		<view class="{{item.class}}" wx:for="{{list}}" wx:key="item">
+			<view class="ui-title">{{item.title}}</view>
+			<view class="ui-content">{{item.content}}</view>
+			<view class="ui-button">{{item.button}}</view>
+		</view>
+	</view>
+</view>
+<view class="product">
+	<swiper indicator-dots="true" autoplay="true" indicator-active-color="#0ff"	>
+		<swiper-item wx:for="{{img}}" wx:key="item">
+			<image src="{{item.imgSrc}}" mode="widthFix"></image>
+		</swiper-item>
+	</swiper>
+</view>
+
