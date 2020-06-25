@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/bufan/bufan",
     "pages/index/index",
+    "pages/bufan/bufan",
     "pages/logs/logs"
   ],
   "window": {
